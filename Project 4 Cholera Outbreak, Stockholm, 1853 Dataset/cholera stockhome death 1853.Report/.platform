@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "cholera stockhome death 1853"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9f5d8eca-58f9-4ea5-a783-20b6203a3601"
+  }
+}

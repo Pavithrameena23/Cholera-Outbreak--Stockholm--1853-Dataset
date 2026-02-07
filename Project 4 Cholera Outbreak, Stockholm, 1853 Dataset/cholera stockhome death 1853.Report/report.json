@@ -1,0 +1,156 @@
+{
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2},\"customTheme\":{\"name\":\"Solar\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU05",
+            "path": "BaseThemes/CY24SU05.json",
+            "type": 202
+          },
+          {
+            "name": "Solar",
+            "path": "BuiltInThemes/Solar.json",
+            "type": 201
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E17501'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0d2d462408cec0e9e079",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"19ff142740d98e3c6d32\",\"layouts\":[{\"id\":0,\"position\":{\"x\":827.1893434823978,\"y\":5.845861084681256,\"z\":3000,\"width\":137.3777354900095,\"height\":105.22549952426262,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.oldest death\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"oldest death\"},\"Name\":\"DAX.oldest death\",\"NativeReferenceName\":\"oldest death\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Oldest Death'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 105.23,
+          "width": 137.38,
+          "x": 827.19,
+          "y": 5.85,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"285bda7102890da3b3bb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":320.0608943862988,\"y\":5.845861084681256,\"z\":2000,\"width\":119.84015223596575,\"height\":102.30256898192198,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.Total Female\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Female\"},\"Name\":\"DAX.Total Female\",\"NativeReferenceName\":\"Total Female\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Female'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 102.30,
+          "width": 119.84,
+          "x": 320.06,
+          "y": 5.85,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"4555a8dbe04c33dced3d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.768791627021884,\"y\":5.845861084681256,\"z\":0,\"width\":149.06945765937203,\"height\":102.30256898192198,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.Total Death\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"},\"Name\":\"DAX.Total Death\",\"NativeReferenceName\":\"Total Death\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 102.30,
+          "width": 149.07,
+          "x": 8.77,
+          "y": 5.85,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"483c68b97725b7021864\",\"layouts\":[{\"id\":0,\"position\":{\"x\":394.5956232159848,\"y\":118.37868696479543,\"z\":10000,\"width\":469.1303520456708,\"height\":244.06470028544246,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"waterfallChart\",\"projections\":{\"Category\":[{\"queryRef\":\"cholera.Date of death.Variation.Date Hierarchy.Quarter\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.Total Death\"}],\"Breakdown\":[{\"queryRef\":\"cholera.Sex\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Date of death\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"cholera.Date of death.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Date of death Quarter\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"},\"Name\":\"DAX.Total Death\",\"NativeReferenceName\":\"Total Death\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Sex\"},\"Name\":\"cholera.Sex\",\"NativeReferenceName\":\"Sex\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death by Quarter and Gender'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 244.06,
+          "width": 469.13,
+          "x": 394.60,
+          "y": 118.38,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"4e8401e257a04d8b5395\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.30732635585157,\"y\":118.37868696479543,\"z\":8000,\"width\":369.75071360608945,\"height\":244.06470028544246,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"DAX.Total Female\"},{\"queryRef\":\"DAX.Total Male\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Female\"},\"Name\":\"DAX.Total Female\",\"NativeReferenceName\":\"Total Female\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Male\"},\"Name\":\"DAX.Total Male\",\"NativeReferenceName\":\"Total Male\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death by Gender'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 244.06,
+          "width": 369.75,
+          "x": 7.31,
+          "y": 118.38,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"56789908692a985e9089\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1123.8667935299716,\"y\":5.845861084681256,\"z\":5000,\"width\":146.1465271170314,\"height\":105.22549952426262,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.Youngest death\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Youngest death\"},\"Name\":\"DAX.Youngest death\",\"NativeReferenceName\":\"Youngest death\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Youngest Death '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 105.23,
+          "width": 146.15,
+          "x": 1123.87,
+          "y": 5.85,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"6ecf3c30bd6e51e47027\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.450490290328784,\"y\":378.0196116131513,\"z\":7000,\"width\":412.67140934435685,\"height\":341.79273216689097,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"cholera.Profession\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.Total Death\"},{\"queryRef\":\"Sum(cholera.Age)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profession\"},\"Name\":\"cholera.Profession\",\"NativeReferenceName\":\"Profession\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"},\"Name\":\"DAX.Total Death\",\"NativeReferenceName\":\"Total Death\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Age\"}},\"Function\":1},\"Name\":\"Sum(cholera.Age)\",\"NativeReferenceName\":\"Average of Age\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"innerPadding\":{\"expr\":{\"Literal\":{\"Value\":\"21L\"}}}}}],\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"totals\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"Sum(cholera.Age)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"DAX.Total Death\"}}],\"layout\":[{\"properties\":{\"stackedGapSize\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"stackedGapExplodes\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"seriesOrderReversed\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"seriesOrderSorted\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death and Average Age by Profession'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.79,
+          "width": 412.67,
+          "x": 9.45,
+          "y": 378.02,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"88eb68e90d410ad03aee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":439.4477985002884,\"y\":378.0196116131513,\"z\":6000,\"width\":463.07402422611034,\"height\":341.79273216689097,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"ribbonChart\",\"projections\":{\"Y\":[{\"queryRef\":\"DAX.Total Death\"}],\"Category\":[{\"queryRef\":\"cholera.Month Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"},\"Name\":\"DAX.Total Death\",\"NativeReferenceName\":\"Total Death\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month Name\"},\"Name\":\"cholera.Month Name\",\"NativeReferenceName\":\"Month Name\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month Name\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"preferredCategoryWidth\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death in Month'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.79,
+          "width": 463.07,
+          "x": 439.45,
+          "y": 378.02,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"a464630ab4d090de42d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":878.3406279733588,\"y\":118.37868696479543,\"z\":11000,\"width\":391.6726926736442,\"height\":244.06470028544246,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"cholera.Day Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.Total Death\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Day Name\"},\"Name\":\"cholera.Day Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"},\"Name\":\"DAX.Total Death\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Death\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Death by Day'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter0a25f9e3ba06022dc00e\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0},{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"sc\",\"Entity\":\"cholera\",\"Type\":0},{\"Name\":\"sd\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"sc\"}},\"Property\":\"Day Name\"},\"Name\":\"sc_Day_Name\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"sd\"}},\"Property\":\"Total Death\"}}}],\"Top\":10}}},\"Type\":2}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Day Name\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"restatement\":\"Top 10 day name by total death\",\"howCreated\":0}]",
+          "height": 244.06,
+          "width": 391.67,
+          "x": 878.34,
+          "y": 118.38,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"a84bdba96c490092a31d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":457.4386298763083,\"y\":5.845861084681256,\"z\":12000,\"width\":350.7516650808754,\"height\":105.22549952426262,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Cholera Outbreak- 1853  Analysis\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"24pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 105.23,
+          "width": 350.75,
+          "x": 457.44,
+          "y": 5.85,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"b56704a010758e6b3930\",\"layouts\":[{\"id\":0,\"position\":{\"x\":976.2588011417698,\"y\":5.845861084681256,\"z\":4000,\"width\":127.14747859181732,\"height\":106.68696479543293,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.Average Age\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Average Age\"},\"Name\":\"DAX.Average Age\",\"NativeReferenceName\":\"Average Age\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Age'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 106.69,
+          "width": 127.15,
+          "x": 976.26,
+          "y": 5.85,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c19c9a1c16ecd956d87d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":170.99143672692674,\"y\":4.384395813510942,\"z\":1000,\"width\":134.4548049476689,\"height\":103.7640342530923,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX.Total Male\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Male\"},\"Name\":\"DAX.Total Male\",\"NativeReferenceName\":\"Total Male\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Male'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 103.76,
+          "width": 134.45,
+          "x": 170.99,
+          "y": 4.38,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"df5efbc1dec906aba908\",\"layouts\":[{\"id\":0,\"position\":{\"x\":927.7231301672755,\"y\":378.0196116131513,\"z\":9000,\"width\":352.81830417227457,\"height\":341.79273216689097,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"DAX.Total Female\"},{\"queryRef\":\"DAX.Total Male\"}],\"Rows\":[{\"queryRef\":\"cholera.Age Categories\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"cholera\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Female\"},\"Name\":\"DAX.Total Female\",\"NativeReferenceName\":\"Total Female\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Male\"},\"Name\":\"DAX.Total Male\",\"NativeReferenceName\":\"Total Male\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Age Categories\"},\"Name\":\"cholera.Age Categories\",\"NativeReferenceName\":\"Age Categories\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Female\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"sharedAxis\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"ribbonBands\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gender by Age Categories'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.79,
+          "width": 352.82,
+          "x": 927.72,
+          "y": 378.02,
+          "z": 9000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Solar"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../cholera stockhome death 1853.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
